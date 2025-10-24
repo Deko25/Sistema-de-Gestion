@@ -1,0 +1,11 @@
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\bin\Debug\net9.0\GestorClient.Domain.deps.json
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\bin\Debug\net9.0\GestorClient.Domain.dll
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\bin\Debug\net9.0\GestorClient.Domain.pdb
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\obj\Debug\net9.0\GestorClient.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\obj\Debug\net9.0\GestorClient.Domain.AssemblyInfoInputs.cache
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\obj\Debug\net9.0\GestorClient.Domain.AssemblyInfo.cs
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\obj\Debug\net9.0\GestorClient.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\obj\Debug\net9.0\GestorClient.Domain.dll
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\obj\Debug\net9.0\refint\GestorClient.Domain.dll
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\obj\Debug\net9.0\GestorClient.Domain.pdb
+C:\Users\Jero\Desktop\HU1\GestorClient.Domain\obj\Debug\net9.0\ref\GestorClient.Domain.dll

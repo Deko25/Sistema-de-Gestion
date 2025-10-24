@@ -1,0 +1,6 @@
+@GestorClient.api_HostAddress = http://localhost:5090
+
+GET {{GestorClient.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
