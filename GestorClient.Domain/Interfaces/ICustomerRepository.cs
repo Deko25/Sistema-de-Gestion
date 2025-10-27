@@ -4,9 +4,10 @@ namespace GestorClient.Domain.Interfaces;
 
 public interface ICustomerRepository
 {
-    IEnumerable<Customer> GetAll();
-    Customer? GetById(int id);
-    void Add(Customer customer);
-    void Update(Customer customer);
-    void SaveChanges();
+    Task<IEnumerable<Customer>> GetAll();
+    Task<Customer?> GetById(int id);
+    Task Add(Customer customer);
+    Task Update(Customer customer);
+    Task Delete(int id);
+    Task SaveChanges();
 }

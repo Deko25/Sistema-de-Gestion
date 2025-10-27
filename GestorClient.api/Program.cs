@@ -1,3 +1,5 @@
+using GestionCustomers.Application.Interfaces;
+using GestionCustomers.Application.Services;
 using GestorClient.Application.Services;
 using GestorClient.Domain.Interfaces;
 using GestorClient.Infrastructure.Data;
@@ -10,7 +12,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(8, 0, 33))));
 
-// INyeccion de dependencias con addScoped
+// Inyeccion de dependencias con addScoped
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 
 // Add services to the container.
@@ -54,3 +60,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
+

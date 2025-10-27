@@ -4,3 +4,8 @@ using GestorClient.Infrastructure.Data;
 
 namespace GestorClient.Infrastructure.Repositories;
 
+public class CustomerRepository : ICustomerRepository
+{
+    
+}
+
