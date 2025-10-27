@@ -1,42 +1,246 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\GestorClient.api.csproj": {}
+    "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.api/GestorClient.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\GestorClient.api.csproj": {
+    "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Application/GestorClient.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\GestorClient.api.csproj",
-        "projectName": "GestorClient.api",
-        "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\GestorClient.api.csproj",
-        "packagesPath": "C:\\Users\\kabe_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\obj\\",
+        "projectUniqueName": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Application/GestorClient.Application.csproj",
+        "projectName": "GestorClient.Application",
+        "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Application/GestorClient.Application.csproj",
+        "packagesPath": "/home/zapgut/.nuget/packages/",
+        "outputPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kabe_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/zapgut/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj"
+              "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Domain/GestorClient.Domain.csproj": {
+                "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Domain/GestorClient.Domain.csproj"
               },
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj"
+              "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Infrastructure/GestorClient.Infrastructure.csproj": {
+                "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Infrastructure/GestorClient.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/zapgut/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Domain/GestorClient.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Domain/GestorClient.Domain.csproj",
+        "projectName": "GestorClient.Domain",
+        "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Domain/GestorClient.Domain.csproj",
+        "packagesPath": "/home/zapgut/.nuget/packages/",
+        "outputPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zapgut/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/zapgut/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Infrastructure/GestorClient.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Infrastructure/GestorClient.Infrastructure.csproj",
+        "projectName": "GestorClient.Infrastructure",
+        "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Infrastructure/GestorClient.Infrastructure.csproj",
+        "packagesPath": "/home/zapgut/.nuget/packages/",
+        "outputPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zapgut/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Domain/GestorClient.Domain.csproj": {
+                "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Domain/GestorClient.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/zapgut/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.api/GestorClient.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.api/GestorClient.api.csproj",
+        "projectName": "GestorClient.api",
+        "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.api/GestorClient.api.csproj",
+        "packagesPath": "/home/zapgut/.nuget/packages/",
+        "outputPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zapgut/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Application/GestorClient.Application.csproj": {
+                "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Application/GestorClient.Application.csproj"
+              },
+              "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Infrastructure/GestorClient.Infrastructure.csproj": {
+                "projectPath": "/home/zapgut/Documentos/Sistema-de-Gestion/GestorClient.Infrastructure/GestorClient.Infrastructure.csproj"
               }
             }
           }
@@ -103,235 +307,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj",
-        "projectName": "GestorClient.Application",
-        "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj",
-        "packagesPath": "C:\\Users\\kabe_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\kabe_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net9.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj"
-              },
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj",
-        "projectName": "GestorClient.Domain",
-        "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj",
-        "packagesPath": "C:\\Users\\kabe_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\kabe_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net9.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj",
-        "projectName": "GestorClient.Infrastructure",
-        "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\kabe_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\kabe_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net9.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "target": "Package",
-              "version": "[9.0.10, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[9.0.10, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[9.0.10, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/zapgut/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
