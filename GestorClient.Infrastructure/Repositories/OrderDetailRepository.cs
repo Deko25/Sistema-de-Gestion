@@ -1,6 +1,6 @@
 namespace GestorClient.Infrastructure.Repositories;
 
-public class OrderDetailRepository
+public class OrderDetailRepository 
 {
     
 }
