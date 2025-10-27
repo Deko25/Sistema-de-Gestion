@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\GestorClient.api.csproj": {}
+    "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Api\\GestorClient.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\GestorClient.api.csproj": {
+    "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Api\\GestorClient.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\GestorClient.api.csproj",
+        "projectUniqueName": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Api\\GestorClient.api.csproj",
         "projectName": "GestorClient.api",
-        "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\GestorClient.api.csproj",
-        "packagesPath": "C:\\Users\\kabe_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.api\\obj\\",
+        "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Api\\GestorClient.api.csproj",
+        "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kabe_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj"
+              "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Application\\GestorClient.Application.csproj": {
+                "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Application\\GestorClient.Application.csproj"
               },
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj"
+              "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj"
               }
             }
           }
@@ -103,24 +103,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj": {
+    "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Application\\GestorClient.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Application\\GestorClient.Application.csproj",
         "projectName": "GestorClient.Application",
-        "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\GestorClient.Application.csproj",
-        "packagesPath": "C:\\Users\\kabe_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Application\\obj\\",
+        "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Application\\GestorClient.Application.csproj",
+        "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kabe_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -135,11 +135,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj"
+              "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Domain\\GestorClient.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Domain\\GestorClient.Domain.csproj"
               },
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj"
+              "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj"
               }
             }
           }
@@ -175,24 +175,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj": {
+    "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Domain\\GestorClient.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Domain\\GestorClient.Domain.csproj",
         "projectName": "GestorClient.Domain",
-        "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj",
-        "packagesPath": "C:\\Users\\kabe_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Domain\\GestorClient.Domain.csproj",
+        "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kabe_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -240,24 +240,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
+    "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj",
         "projectName": "GestorClient.Infrastructure",
-        "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\kabe_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Infrastructure\\GestorClient.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kabe_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -272,8 +272,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj": {
-                "projectPath": "C:\\Users\\kabe_\\Desktop\\HU1\\HU1\\GestorClient.Domain\\GestorClient.Domain.csproj"
+              "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Domain\\GestorClient.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jero\\Desktop\\Sistema-de-Gestion\\GestorClient.Domain\\GestorClient.Domain.csproj"
               }
             }
           }
@@ -331,7 +331,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
